@@ -1,6 +1,11 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url(../fonts/BebasNeue.otf);
+}
+
 html, body {
   margin: 0;
-  font-family: "Bebas Neue", Arial, sans-serif;
+  font-family: BebasNeue;
   color: #282829;
   height: -webkit-fill-available;
   background-color: #cccccc;
