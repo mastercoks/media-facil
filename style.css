@@ -1,0 +1,151 @@
+html, body {
+  margin: 0;
+  font-family: "Bebas Neue", Arial, sans-serif;
+  color: #282829;
+  height: 100%;
+  background-color: #cccccc;
+}
+
+nav {
+  height: 72px !important;
+  line-height: 72px !important;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+  
+}
+
+nav ul {
+  margin: 0;
+  list-style: none;
+  
+}
+
+a.menu {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #282829;
+}
+
+a.menu:hover {
+  color: rgba(0,0,0,.6);
+}
+
+a.menu:active {
+  color: rgba(0,0,0,.4);
+}
+
+.primary-color {
+  background-color: #f58634;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  flex: 1;
+  text-align: end;
+  margin: 0 24px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100% - 72px);
+}
+
+.sidenav {
+  list-style: none;
+  padding: 0;
+}
+
+a.menu, .sidenav a {
+  text-decoration: none !important;
+}
+
+.sidenav a {
+  text-decoration: none;
+  padding: 12px 48px 12px 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  border-left: 2px solid transparent;
+  color: #282829;
+}
+
+.nivel-2 a {
+  padding: 12px 48px;
+}
+
+.sidenav a:hover,.sidenav .active {
+  border-left: 2px solid #f58634;
+  color: #f58634;
+}
+
+aside {
+  background-color: #fafafa;
+  box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+}
+
+main {
+  background-image: url(./imagens/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: 1;
+}
+
+.item-text {
+  height: 24px;
+  line-height: 28px;
+  margin-left: 8px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 12px;
+  text-decoration: none;
+}
+
+.btn img {
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 2px solid #f58634;
+}
+
+.btn:hover img {
+  box-shadow: 0px 0px 20px 1px #f58634;
+}
+
+.hide {
+  display: none;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(255, 255, 255, .4);
+}
+
+.btn span {
+  color: #000;
+  margin-top: 8px;
+  font-size: 1.5em;
+  width: 104px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .hide-mobile {
+    display: none;
+  }  
+}
