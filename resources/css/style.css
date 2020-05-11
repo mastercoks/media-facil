@@ -103,7 +103,7 @@ a.menu, .sidenav a {
 main {
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   height: -webkit-fill-available;
   transition: margin-left 1s;
   position: relative;
