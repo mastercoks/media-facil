@@ -174,7 +174,7 @@ main {
   .menu-active {
     margin-left: 220px;
     transition: margin-left 1s;
-}
+  }
 }
 
 .sidebar {
