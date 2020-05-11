@@ -165,6 +165,140 @@ footer {
   margin-right: 8px;
 }
 
+
+.background-img {
+  background-image: url("../images/cliente.jpg");
+  height: 300px;
+  /* display: flex; */
+  background-size: cover;
+  background-position: center;
+}
+
+.background-logo {
+  background-image: url("../images/bg-cliente.png");
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.background-logo h2 {
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 24px;
+  font-size: -webkit-xxx-large;
+}
+
+.descricao {
+  margin: 24px;
+}
+
+.descricao h1 {
+  font-size: -webkit-xxx-large;
+  color: #e27d32;
+  margin: 0;
+  border-bottom: 2px solid;
+  padding-bottom: 9px;
+}
+
+.descricao p {
+  font-size: large;
+}
+
+.sec-login {
+  display: flex;
+  margin: 0 24px;
+  padding: 24px 0;
+  justify-content: space-evenly;
+}
+
+.video {
+  width: 50%;
+  margin-right: 12px;
+}
+
+.video video {
+  width: 100%;
+  background-image: url("../images/video.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border-radius: 4px;
+  height: 100%;
+}
+
+.bar-btns {
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+}
+
+.bar-btns .btn {
+  margin: 0 12px;
+  width: 120px;
+  text-align: center;
+}
+
+form {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-login {
+  background-color: #000;
+  color: #fff;
+  padding: 24px;  
+  font-size: x-large;
+  border-radius: 4px;
+}
+
+.form-login h2 {
+  font-size: xx-large;
+  margin: 0;  
+  color: #e27d32;
+  text-align: center;
+}
+
+
+.form-login .btn {
+  font-size: medium;
+}
+
+.form-group {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group span {
+    width: 60px;
+}
+
+.form-group input {
+  padding: 4px;
+  width: 146px;
+}
+
+.form-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.form-btn .btn {
+  width: 200px;
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
 @media only screen and (max-width: 385px) {
   .nav-msg {
     display: none;
@@ -264,120 +398,17 @@ footer {
   }
 }
 
-.background-img {
-  background-image: url("../images/cliente.jpg");
-  height: 300px;
-  /* display: flex; */
-  background-size: cover;
-  background-position: center;
-}
-
-.background-logo {
-  background-image: url("../images/bg-cliente.png");
-  height: 300px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.background-logo h2 {
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin: 24px;
-  font-size: -webkit-xxx-large;
-}
-
-.descricao {
-  margin: 24px;
-}
-
-.descricao h1 {
-  font-size: -webkit-xxx-large;
-  color: #e27d32;
-  margin: 0;
-  border-bottom: 2px solid;
-  padding-bottom: 9px;
-}
-
-.descricao p {
-  font-size: large;
-}
-
-.sec-login {
-  display: flex;
-  margin: 0 24px;
-  padding-top: 24px;
-  justify-content: center;
-}
-
-.video {
-  width: 50%;
-}
-
-.video video {
-  background-image: url("../images/video.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #fff;
-  border-radius: 4px;
-  height: 100%;
-}
-
-.bar-btns {
-  display: flex;
-  justify-content: center;
-  padding: 24px;
-}
-
-.bar-btns .btn {
-  margin: 0 12px;
-  width: 120px;
-  text-align: center;
-}
-
-.form-login {
-  background-color: #000;
-  color: #fff;
-  padding: 24px;  
-  font-size: x-large;
-  border-radius: 4px;
-}
-
-.form-login h2 {
-  font-size: xx-large;
-  margin: 0;  
-  color: #e27d32;
-}
-
-
-.form-login .btn {
-  font-size: medium;
-}
-
-.form-group {
-  margin: 12px 0;
-  display: flex;
-  align-items: center;
-}
-
-.form-group span {
-    width: 60px;
-}
-
-.form-group input {
-  padding: 4px;
-  width: max-content;
-}
-
-.form-btn {
-  display: flex;
-  justify-content: center;
-}
-
-.form-btn .btn {
-  width: 120px;
-  text-align: center;
+@media only screen and (max-width: 900px) {
+  .sec-login {
+    flex-direction: column;
+  }
+  .video {
+    margin: 0 0 12px 0;
+    width: 100%;
+  }
+  form {
+    width: 100%;
+    margin: 12px 0 0 0;
+    /* margin: auto; */
+  }
 }
