@@ -10,8 +10,8 @@
   <!-- Compiled and minified CSS -->
 </head>
 <body>
-  <nav>
-    <div class="navbar nav-wrapper primary-color">
+  <nav class="primary-color">
+    <div class="navbar nav-wrapper container">
       <a id="btn-menu" href="#" class="menu only-mobile"><i class="material-icons">menu</i></a>
       <img class="logo" src="./resources/images/logo.png" alt="Logo Media Facil">
       <ul class="right">
@@ -22,38 +22,79 @@
       </ul>
     </div>
   </nav>
-  <ul id="menu-bar" class="float-btns menu-hide">
-    <li>
-      <a class="active" href="#!">Início</a>
-      <a href="#!">Área do Cliente</a>
-      <a href="#!">Área do Fornecedor</a>
-    </li>
-  </ul>
-  <main class="background-img">
-    <div class="background-logo">
-      <h2>Área do Cliente</h2>
+  <div id="menu-bar" class="container menu-hide float-btns">
+    <ul class="">
+      <li>
+        <a class="btn active" href="#!">Início</a>
+        <a class="btn" href="#!">Área do Cliente</a>
+        <a class="btn" href="#!">Área do Fornecedor</a>
+      </li>
+    </ul>
+  </div>
+  <main>
+    <div class="background-img">
+      <div class="background-logo container">
+        <h2>Área do Cliente</h2>
+      </div>
     </div>
-  </main>
-  <footer>
-    <div class="center">Entre em Contato</div>
-    <div class="row">
-      <div class="content">
-        <div class="row">
-          <div class="fist-item">
-            <div class="item">Endereço: Rua Francisco Neiva, 107 / Ap 03 - Centro - Medina/MG</div>
-            <div class="item">Telefone: (33) 3753 1634 – (33) 3753 1822</div>
+    <section class="container">
+      <div class="descricao">
+        <h1>Descrição</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio porro nesciunt dolore consectetur facilis, aut saepe optio, id cupiditate aliquam expedita magni! Rem repellat ex, nulla ad dolor non ullam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quisquam commodi, eius quasi voluptatum, inventore fugiat doloribus explicabo, aperiam labore cumque quam quod rem aut amet cupiditate corrupti vitae ex.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus suscipit possimus porro hic perferendis tenetur animi unde, quam cupiditate nisi fuga corrupti quibusdam consequuntur. Dignissimos dolor deleniti voluptatibus provident voluptatem.</p>
+      </div>
+    </section>
+    <section class="primary-color">
+      <div class="container">
+        <div class="sec-login">
+          <div class="video">
+            <video src=""></video>
           </div>
-          <div>
-            <div class="item">Email: aemsolucoespublicas@gmail.com</div>
-            <div class="item">Skype: aemsolucoes2015</div>
-          </div>
+          <form class="form-login" action="">
+            <h2>Acesso:</h2>          
+            <div class="form-group"> 
+              <span>Login</span>
+              <input type="text">
+            </div>          
+            <div class="form-group">
+              <span>Senha</span>
+              <input type="password">
+            </div>
+            <div class="form-btn">
+              <a class="btn" href="#!">Entrar</a>
+            </div>
+          </form>
         </div>
       </div>
-      <ul class="social-medias">
-        <li><a href="#!"><img src="./resources/icons/facebook.png" alt="Logo Facebook" class="logo-sm"></a></li>
-        <li><a href="#!"></a><img src="./resources/icons/skype.png" alt="Logo Skype" class="logo-sm"></a></li>
-        <li><a href="#!"></a><img src="./resources/icons/instagram.png" alt="Logo Instagram" class="logo-sm"></a></li>
-      </ul>  
+    </section>
+    <section class="primary-color bar-btns">
+      <a class="btn" href="#!">Download Manual</a>
+      <a class="btn" href="#!">Pré Cadastro</a>
+    </section>
+  </main>  
+  <footer>
+    <div class="container">
+      <div class="center">Entre em Contato</div>
+      <div class="row">
+        <div class="content">
+          <div class="row">
+            <div class="fist-item">
+              <div class="item">Endereço: Rua Francisco Neiva, 107 / Ap 03 - Centro - Medina/MG</div>
+              <div class="item">Telefone: (33) 3753 1634 – (33) 3753 1822</div>
+            </div>
+            <div>
+              <div class="item">Email: aemsolucoespublicas@gmail.com</div>
+              <div class="item">Skype: aemsolucoes2015</div>
+            </div>
+          </div>
+        </div>
+        <ul class="social-medias">
+          <li><a href="#!"><img src="./resources/icons/facebook.png" alt="Logo Facebook" class="logo-sm"></a></li>
+          <li><a href="#!"></a><img src="./resources/icons/skype.png" alt="Logo Skype" class="logo-sm"></a></li>
+          <li><a href="#!"></a><img src="./resources/icons/instagram.png" alt="Logo Instagram" class="logo-sm"></a></li>
+        </ul>  
+      </div>
     </div>
   </footer>
   <script src="./resources/js/home.js"></script>  
