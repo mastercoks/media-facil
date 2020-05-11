@@ -1,0 +1,275 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url(../fonts/BebasNeue.otf);
+}
+
+html, body {
+  margin: 0;
+  font-family: BebasNeue;
+  /* color: #282829; */
+  color: #000;
+  height: -webkit-fill-available;
+  background-color: #cccccc;
+}
+
+.navbar {
+  height: 72px;
+  line-height: 72px;
+}
+
+.navbar ul {
+  margin: 0;
+  list-style: none;
+}
+
+.primary-color {
+  background-color: #f58634;
+}
+
+.background-black {
+  background-color: #000;
+  color: #e27d32;
+  padding: 0px 8px;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+}
+
+.right {
+  flex: 1;
+  text-align: end;
+  margin: 0 24px;
+}
+
+.nav-msg {
+  font-size: xx-large;
+}
+
+.float-btns {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  width: -webkit-fill-available;
+  padding: 0;
+  margin: 0;  
+  overflow: hidden;
+  transition: height 1s;
+}
+
+.float-btns li {
+  display: flex;
+  text-align: center;
+}
+
+.float-btns a {
+  background-color: #fff;
+  padding: 4px;
+  text-decoration: none;
+  color: #000;
+  border-radius: 6px;
+  margin: 0 5px;  
+  letter-spacing: 1px;
+}
+
+.float-btns .active {
+  background-color: #999999;
+}
+
+.float-btns a:hover {
+  background-color: #999999;
+}
+
+.menu {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #282829;
+  text-decoration: none !important;
+  padding-right: 8px;
+}
+
+.menu:hover {
+  color: rgba(0,0,0,.6);
+}
+
+.menu:active {
+  color: rgba(0,0,0,.4);
+}
+
+
+/* main {
+  background-color: rebeccapurple;
+  height: 300px;
+  display: flex;
+} */
+
+.logo-sm {
+  height: 32px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
+
+.social-medias {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0px 24px 24px 12px;
+}
+
+.social-medias li {
+  margin: 0 4px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row .content {
+  width: -webkit-fill-available;
+  letter-spacing: 1px;
+  justify-content: center;
+  margin: 0px 12px 24px 24px;
+  flex-wrap: wrap;
+}
+
+.content .row {
+  flex-wrap: wrap;
+}
+
+.center {
+  text-align: center;
+  padding: 24px 0px 12px 0px;
+  font-size: large;
+}
+
+.item {
+  margin-bottom: 4px;
+}
+
+.fist-item {
+  margin-right: 8px;
+}
+
+@media only screen and (max-width: 385px) {
+  .nav-msg {
+    display: none;
+  }  
+}
+@media only screen and (min-width: 385px) and (max-width: 406px) {
+  .nav-msg {
+    font-size: medium;
+  }  
+}
+@media only screen and (min-width: 407px) and (max-width: 468px) {
+  .nav-msg {
+    font-size: large;
+  }  
+}
+
+@media only screen and (min-width: 469px) and (max-width: 499px) {
+  .nav-msg {
+    font-size: x-large;
+  }  
+}
+
+@media only screen and (min-width: 500px) {
+  .nav-msg {
+    font-size: xx-large;
+  }  
+  .only-mobile {
+    display: none;
+  }
+  .nav-wrapper {
+    padding-left: 24px;
+  }
+  .float-btns {
+    position: absolute;
+    top: 66px;
+    margin: 0 20px;
+  }
+  .float-btns a {
+    width: 130px;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .hide-mobile {
+    display: none;
+  }  
+  .float-btns a {
+    margin: 0;
+    width: -webkit-fill-available;
+    border-radius: 0;
+    border-bottom: 1px solid  rgba(0,0,0,.2);
+    padding: 8px;
+  }
+  .float-btns li {
+    flex-direction: column;
+    justify-content: center;
+    width: -webkit-fill-available;
+  }
+  .menu-hide {
+    height: 0 !important;
+    transition: height 1s;
+  }
+  .float-btns {
+    height: 108px;
+  }
+}
+
+@media only screen and (max-width: 602px) {
+  footer .row {
+    flex-direction: column;
+  }
+  .row .content {
+    margin: 0px 8px 12px 8px; 
+  }
+  .row {
+    /* margin: 0 !important; */
+    text-align: center;
+    justify-content: center !important;
+  }
+  .social-medias {
+    margin: 0px 24px 24px 24px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .row .content {
+    font-size: small;
+  }
+}
+
+.background-img {
+  background-image: url("../images/cliente.jpg");
+  height: 300px;
+  /* display: flex; */
+  background-size: cover;
+  background-position: center;
+}
+
+.background-logo {
+  background-image: url("../images/background.png");
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+}
+
+.background-logo h2 {
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 24px;
+  font-size: -webkit-xxx-large;
+}
