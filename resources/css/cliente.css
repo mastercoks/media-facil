@@ -13,6 +13,10 @@ html, body {
   background-color: #cccccc;
 }
 
+.logo {
+  height: 32px;
+}
+
 .navbar {
   height: 72px;
   line-height: 72px;
