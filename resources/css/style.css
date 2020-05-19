@@ -7,6 +7,7 @@ html, body {
   margin: 0;
   font-family: BebasNeue;
   color: #282829;
+	height: 100%;
   height: -webkit-fill-available;
   background-color: #cccccc;
 }
@@ -65,6 +66,7 @@ a.menu:active {
 .row {
   display: flex;
   flex-wrap: wrap;
+	height: 100%;
   height: -webkit-fill-available;
 }
 
@@ -104,6 +106,7 @@ main {
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-position: top;
+	height: 100%;
   height: -webkit-fill-available;
   transition: margin-left 1s;
   position: relative;
@@ -150,6 +153,7 @@ main {
   display: -webkit-box;
   -webkit-box-pack: center;
   flex-wrap: wrap;
+	height: 100%;
   height: -webkit-fill-available;
   justify-content: center;
   align-content: center;
@@ -179,6 +183,7 @@ main {
 
 .sidebar {
   position: fixed;
+	height: 100%;
   height: -webkit-fill-available;
   overflow: auto;
   background-color: #fafafa;
