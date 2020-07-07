@@ -129,7 +129,7 @@ main {
 }
 
 .btn {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   flex-direction: column;
   margin: 12px;
@@ -153,7 +153,6 @@ main {
 }
 
 .grid {
-  /* display: flex; */
   display: -webkit-box;
   -webkit-box-pack: center;
   flex-wrap: wrap;
@@ -199,4 +198,8 @@ main {
 .sidebar-fixed {
   z-index: 998;
   padding-top: 72px;
+}
+
+.line {
+  max-width: 600px;
 }
